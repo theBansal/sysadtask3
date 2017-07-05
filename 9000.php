@@ -17,4 +17,5 @@ if ($stmt = $mysqli->prepare("INSERT INTO formdata (username,password,fullname,e
     // Close the prepared statement.
     $stmt->close();
 }
+mysqli_close()
 ?>
