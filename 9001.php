@@ -23,4 +23,5 @@ if ($stmt = $mysqli->prepare("SELECT username,fullname,email FROM formdata WHERE
     // Close the prepared statement.
     $stmt->close();
 }
+mysqli_close();
 ?>
